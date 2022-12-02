@@ -60,11 +60,14 @@ const getUser = async(req,res) => {
             console.log("User Not Found")
         } else if(foundUser){
             console.log("User Found")
+            res.render('g_test.ejs' ,{
+                user : foundUser
+            });
 
         }
     });
 
-    res.render("g_test.ejs" , {user : userInfo});
+    
 }
 
 module.exports = {login, dashboard, g2test, gtest, saveUser, getUser}
