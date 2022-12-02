@@ -1,0 +1,40 @@
+<%- include('./partials/header.ejs')-%>
+
+  <form action="/saveUser" method="post">
+    <div class="form-group">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" name = "firstName" placeholder="First Name">
+      </div>
+      <div class="form-group">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" name = "lastName" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <label for="age" class="form-label">Age</label>
+        <input type="number" class="form-control" id="age" name = "age" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <label for="dob" class="form-label">DOB</label>
+        <input type="date" class="form-control" id="dob" name = "dob" placeholder="DOB">
+      </div>
+      <div class="form-group">
+        <label for="carMake" class="form-label">Car Make</label>
+        <input type="text" class="form-control" id="carMake" name = "carMake" placeholder="Car Make">
+      </div>
+      <div class="form-group">
+        <label for="carModel" class="form-label">Car Model</label>
+        <input type="text" class="form-control" id="carModel" name = "carModel" placeholder="Car Model">
+      </div>
+      <div class="form-group">
+        <label for="carYear" class="form-label">Car Year</label>
+        <input type="number" class="form-control" id="carYear" name = "carYear" placeholder="Car Year">
+      </div>
+      <div class="form-group">
+        <label for="licenceNumber" class="form-label">Licence Number</label>
+        <input type="number" class="form-control" id="licenceNumber" name = "licenceNumber" placeholder="Licence Number">
+      </div>
+      
+      <button class="btn btn-primary" type="submit">Register</button>
+    </form>
+</body>
+</html>

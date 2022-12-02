@@ -1,0 +1,52 @@
+body{
+    background-color: #464d53;
+}
+
+h1{
+    color:white;
+    /* background-color: darkseagreen; */
+}
+
+img{
+    height: 395px;
+    width: 390px;
+}
+
+label{
+    color:white;
+}
+
+
+#container{
+    height: 465px;
+    width: 1200px;
+    /* border: 5px solid green; */
+}
+
+.inner{
+    border: 5px solid red;
+    height: 455px;
+    width: 390px;
+    float:left
+}
+
+.inr2{
+    height: 50px;
+    width: 380px;
+    border: 5px solid yellow;
+}
+
+h2{
+    color: white
+}
+
+#footer{
+    background-color: chocolate;
+    height: 50px;
+    width: 1200px;
+    
+}
+
+.form-control{
+    width: auto;
+}
